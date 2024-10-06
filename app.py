@@ -9,7 +9,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Initialize Flask app
 app = Flask(__name__)
-CORS(app, origins="*")
+CORS(app, origins="https://spaceeagles.vercel.app/")
 
 # Hugging Face API Configuration for BlenderBot Distill model
 HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
